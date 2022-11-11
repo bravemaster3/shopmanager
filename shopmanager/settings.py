@@ -117,7 +117,7 @@ WSGI_APPLICATION = 'shopmanager.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE':'django.contrib.gis.db.backends.postgis',
+        'ENGINE':'django.db.backends.postgresql',
         'HOST':config('Postgres_host'),
         'USER':config('Postgres_user'),
         'NAME':config('Postgres_name'),
