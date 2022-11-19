@@ -62,7 +62,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
 ]
-CSRF_TRUSTED_ORIGINS = ["*.railway.app"]
+CSRF_TRUSTED_ORIGINS = ["https://web-production-77d7.up.railway.app"]
 
 ROOT_URLCONF = 'shopmanager.urls'
 
